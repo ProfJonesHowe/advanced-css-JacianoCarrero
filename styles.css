@@ -1,4 +1,3 @@
-/* Reset and setup */
 *,
 *::before,
 *::after {
@@ -13,15 +12,14 @@ body {
     color: #e6edf3;
 }
 
-/* Color and design variables */
+
 :root {
     --primary: #4f9cff;
-    /* Accent blue color */
+
     --text: #e6edf3;
-    /* Light text color */
+
 }
 
-/* Header layout */
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -32,14 +30,12 @@ body {
     top: 0;
 }
 
-/* Logo styling */
 .logo {
     color: var(--text);
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Navigation links */
 .site-nav ul {
     list-style: none;
     display: flex;
@@ -54,9 +50,9 @@ body {
     transition: background 0.3s;
 }
 
-/* Hover and active link styles */
 .site-nav a:hover,
 .site-nav a.active {
     background: var(--primary);
     color: #000;
+
 }
